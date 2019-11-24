@@ -1,0 +1,74 @@
+
+.iodownload-warp{
+  font-family:Microsoft YaHei;
+  font-weight:400;
+  color:rgba(51,51,51,1);
+  font-size: 14px;
+  main{
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    .title-course{
+      font-size:24px;
+      border-bottom: 1px solid #D1D1D1;
+      line-height: 40px;
+      margin-top: 20px;
+      padding-left: 12px;
+      margin-bottom: 40px;
+    }
+    .h6-title{
+      font-size:16px;
+      padding-left: 12px;
+      margin-bottom: 30px;
+    }
+
+    table{
+      width: 100%;
+      border: 1px solid #EBEBEB;
+      font-size:14px;
+      margin-bottom: 40px;
+      td{
+        height: 40px;
+        line-height: 40px;
+      }
+     td:nth-child(1){
+       text-align: center;
+       font-weight:bold;
+        color:rgba(51,51,51,1);
+     }
+     td:nth-child(2){
+       padding-left: 32px;
+       font-weight:400;
+        color:rgba(102,102,102,1);
+     }
+   }
+   hr{
+    border: none;
+    border-bottom: 1px solid #D1D1D1;
+    margin-bottom: 30px;
+   }
+   .span-tips{
+    color:rgba(153,153,153,1);
+    font-size:14px;
+    margin-left: 18px;
+   }
+   .span-blod{
+    font-weight:bold;
+    color:rgba(102,102,102,1);
+    font-size:14px;
+    margin-left: 18px;
+    margin-bottom: 40px;
+   }
+   li{
+     list-style-type: disc;
+     margin-left: 18px;
+     font-size:14px;
+      font-family:Microsoft YaHei;
+      font-weight:400;
+      color:rgba(102,102,102,1);
+      line-height:33px;
+   }
+   margin-bottom: 145px;
+  }
+
+}

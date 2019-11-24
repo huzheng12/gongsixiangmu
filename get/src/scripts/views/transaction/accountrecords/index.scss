@@ -1,0 +1,337 @@
+@import "../../../../styles/themes.scss";
+.account-records-warp{
+  .ar-title{
+    h3{
+      padding-left: 10px;
+margin-bottom: 6px;
+      font-size:18px;
+font-family:Microsoft YaHei;
+font-weight:bold;
+@include themify($themes) {
+  color: themed('color-2');
+}
+    }
+    border-bottom: 1px solid #EBEBEB;
+    @include themify($themes) {
+      border-color: themed('border-color-2');
+     }
+  }
+  .ar-form-title{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    .p1{
+      margin-left: 10px;
+      float: left;
+      width: 100px;
+      height: 28px;
+      .ant-select-selection--single{
+        width: 100px;
+        height: 28px;
+
+      }
+      .ant-select-selection-selected-value{
+        line-height: 28px !important;
+      }
+    }
+    .p2{
+      margin-left: 10px;
+      float: left;
+      width: 210px;
+      height: 28px;
+      .inputsll{
+        position: relative;
+        font-size:12px;
+        font-family:Microsoft YaHei;
+        font-weight:400;
+  
+        border: 1px solid #d9d9d9;
+        @include themify($themes) {
+          background-color: themed('background-color-1');
+        }
+        @include themify($themes) {
+          border-color: themed('border-color-5');
+        }
+        @include themify($themes) {
+          color: themed('color-13');
+        }
+        width: 100%;
+        height: 100%;
+        box-sizing:border-box;
+        border-radius: 4px;
+        padding-left: 10px;
+        line-height: 28px;
+        img{
+          position: absolute;
+          right: 11px;
+          top: 6px;
+          width: 11px;
+          height: 14px;
+        }
+        .inpusll-wawrp{
+          border: 1px solid #fff;
+          @include themify($themes) {
+            background-color: themed('background-color-1');
+          }
+          @include themify($themes) {
+            border-color: themed('border-color-5');
+          }
+          @include themify($themes) {
+            color: themed('color-13');
+          }
+          position: absolute;
+          bottom: -236px;
+          left: 0;  
+          width: 500px;
+          display: flex;
+          flex-direction: row;
+          height: 231px;
+          // background:rgba(250,252,255,1);
+          // box-shadow:0px 5px 10px 0px rgba(235,235,235,1);
+          border-radius:4px;
+          z-index: 999;
+             .wawrp-li{
+            box-sizing:border-box;
+            width: 100px;
+            height: 100%;
+            border-right:1px solid #EDF2FA;
+            @include themify($themes) {
+              border-color: themed('border-color-5');
+            }
+            p{
+              font-size:12px;
+              font-family:Microsoft YaHei;
+              font-weight:400;
+              color:rgba(191,191,191,1);
+              padding-left: 10px;
+            }
+            li{
+              cursor:pointer;
+              padding-left: 10px;
+              font-size:12px;
+              font-family:Microsoft YaHei;
+              font-weight:400;
+              @include themify($themes) {
+                color: themed('color-9');
+              }
+              line-height: 28px;
+            }
+            li:hover{
+              background:rgba(237,242,250,1);
+              @include themify($themes) {
+                background-color: themed('background-color-12');
+              }
+             
+            }
+          }
+        }
+      }
+    }
+    .p3{
+      margin-left: 10px;
+      width: 170px;
+      height: 28px;
+      margin-right: 20px;
+      float: left;
+      .ant-radio-button-wrapper{
+        line-height: 28px;
+        font-family:Microsoft YaHei;
+        font-weight:400;
+        // color:rgba(51,51,51,1);
+        text-align: center;
+        padding: 0;
+      }
+      .ant-radio-button-wrapper:nth-child(1){
+        width: 70px;
+        height: 28px;
+        font-size:12px;
+
+      }
+      .ant-radio-button-wrapper:nth-child(2){
+        width: 94px;
+        height: 28px;
+        font-size:12px;
+
+      }
+      // .ant-radio-button-wrapper-checked{
+      //   background-color: #fff;
+      //   color: #2E6BE6;
+      //   border-color: #2E6BE6;
+      // }
+    }
+    .p4{
+      margin-right: 10px;
+    
+      .anticon {
+        display: none;
+      }
+      float: left;
+        width: 100px;
+        height: 28px;
+      .ant-calendar-picker{
+        width: 100px;
+        height: 28px;
+    >div{
+      width: 100px;
+      height: 28px;
+    }
+
+      .ant-input{
+        width: 100px;
+        height: 28px;
+        text-align: center;
+        font-size:12px;
+        font-family:Microsoft YaHei;
+        font-weight:400;
+        @include themify($themes) {
+          background-color: themed('background-color-9');
+        }
+        @include themify($themes) {
+          border-color: themed('border-color-5');
+        }
+        @include themify($themes) {
+          color: themed('color-14');
+        }
+      }
+      }
+    }
+    .p5{
+      float: left;
+      margin-left: 10px;
+    }
+  }
+  .ant-table-thead > tr > th{
+
+    @include themify($themes) {
+      border-color: themed('border-color-1');
+     }
+    @include themify($themes) {
+      color: themed('color-3');
+     }
+    @include themify($themes) {
+      background-color: themed('background-color-3');
+     }
+  }
+  .ant-table-tbody > tr > td{
+    div{
+      font-size: 12px !important;
+      @include themify($themes) {
+        color: themed('color-9');
+      }
+      
+    }
+  
+  }
+  // inpusll-wawrp
+  .ant-table-thead > tr > th,.ant-table-tbody > tr > td{
+    div{
+      span{
+        font-size: 12px !important;
+        @include themify($themes) {
+          color: themed('color-3');
+        }
+      }
+
+    }
+    padding:13px 0 13px 10px ;
+ 
+    @include themify($themes) {
+      border-color: themed('border-color-1');
+     }
+  }
+  .ant-select-dropdown-menu-item{
+    @include themify($themes) {
+      background-color: themed('background-color-11');
+    }
+    @include themify($themes) {
+      color: themed('color-9');
+    }
+  }
+  .ant-select-dropdown-menu-item-selected{
+  color: #2E6BE6 !important;
+  }
+  .ant-select-dropdown-menu-item:hover:not(.ant-select-dropdown-menu-item-disabled){
+    @include themify($themes) {
+      background-color: themed('background-color-12');
+    }
+  }
+  .ant-modal-close{
+    @include themify($themes) {
+      color: themed('color-14');
+    }
+  }
+  .ant-tabs-ink-bar{
+  transition: all 0s !important;
+  }
+  .ant-tabs-top-content{
+    transition: all 0s !important;
+  }
+  .ant-select-selection{
+    @include themify($themes) {
+      background-color: themed('background-color-1');
+    }
+    @include themify($themes) {
+      border-color: themed('border-color-5');
+    }
+    @include themify($themes) {
+      color: themed('color-13');
+    }
+  }
+  .ant-select-arrow{
+    color: #2E6BE6;
+  }
+  .ant-btn{
+    @include themify($themes) {
+      background-color: themed('background-color-15');
+    }
+    @include themify($themes) {
+      border-color: themed('border-color-3');
+     }
+    @include themify($themes) {
+      color: themed('color-9');
+     }
+  }
+  .ant-radio-button-wrapper{
+    @include themify($themes) {
+      background-color: themed('background-color-8');
+    }
+    @include themify($themes) {
+      border-color: themed('border-color-7');
+    }
+    @include themify($themes) {
+      color: themed('color-15');
+    }
+  }
+  thead{
+    @include themify($themes) {
+      background-color: themed('background-color-16');
+      }
+    // line-height: 38px;
+  }
+  tbody{
+  
+    padding: 3px ;
+  }
+  .ant-radio-button-wrapper{
+    @include themify($themes) {
+      background-color: themed('background-color-8');
+    }
+    @include themify($themes) {
+      border-color: themed('border-color-7');
+    }
+    @include themify($themes) {
+      color: themed('color-15');
+    }
+  }
+  .ant-radio-group-solid .ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled):hover {
+    color: #fff !important;
+    background: #2E6BE6 !important;
+    border-color: #2E6BE6 !important;
+}
+.ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled) {
+  z-index: 1;
+  color: #F2EBE6;
+  background: #2E6BE6;
+  border-color: #1890ff;
+  box-shadow: -1px 0 0 0 #1890ff;
+}
+}

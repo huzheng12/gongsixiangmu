@@ -1,0 +1,28 @@
+.grsecurtiy-warp{
+  width: 1000px;
+  float: left;
+  .lebal{
+
+    >span{
+      width: 120px;
+      float: left;
+      line-height: 42px;
+      font-size:16px;
+      font-family:MicrosoftYaHei;
+      font-weight:400;
+      color:rgba(102,102,102,1);
+    }
+    .ant-select-selection--single{
+      width: 340px;
+    }
+  }
+  .ant-btn-primary{
+      span{
+        width: 100%;
+        font-size:16px;
+        font-family:MicrosoftYaHei;
+        font-weight:400;
+        color:rgba(255,255,255,1);
+      }
+  }
+}

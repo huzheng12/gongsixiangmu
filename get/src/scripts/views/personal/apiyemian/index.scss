@@ -1,0 +1,264 @@
+.apiyemian-warp{
+  width: 1000px;
+  margin-left: 20px;
+  float: left;
+  .ant-table-wrapper{
+    margin-bottom: 50px;
+  }
+  .title-biaoti{
+    font-size:20px;
+    font-family:Microsoft YaHei;
+    font-weight:400;
+    color:rgba(0,0,0,1);
+    // padding-left: 20px;
+  }
+  .ant-table-thead > tr > th{
+    background-color: #fff;
+    font-size:16px;
+    font-family:Microsoft YaHei;
+    font-weight:400;
+    color:rgba(153,153,153,1);
+  }
+  .content-box{
+    margin-top: 22px;
+    .lebal{
+      // padding-left: 40px;
+      margin-bottom: 10px;
+      >span{
+        width: 100px;
+        text-align: right;
+        margin-right: 20px;
+        float: left;
+        line-height: 42px;
+        font-size:16px;
+        font-family:MicrosoftYaHei;
+        font-weight:400;
+        color:rgba(102,102,102,1);
+      }
+      .ant-select-selection--single{
+        width: 340px;
+      }
+    }
+    .jiagejiange{
+      margin-bottom: 0;
+    }
+    .butChuangjian{
+      margin-left: 120px;
+      width: 340px;
+    }
+    .xiexia{
+      display: inline-block;
+      margin-top: 20px;
+      margin-bottom: 43px;
+      width: auto;
+      min-width:480px;
+      height:196px;
+      background:rgba(255,255,255,1);
+      border:1px solid rgba(235,235,235,1);
+      box-shadow:0px 0px 10px 0px rgba(46,107,230,0.8);
+      border-radius:4px;
+      padding: 20px;
+      .p1{
+        font-size:16px;
+        font-family:Microsoft YaHei;
+        font-weight:400;
+        color:rgba(51,51,51,1);
+      }
+      .p2{
+        font-size:14px;
+        font-family:Microsoft YaHei;
+        font-weight:400;
+        color:rgba(234,165,18,1);
+        margin-top: 5px;
+      }
+      .p3{
+        font-size:14px;
+        font-family:Microsoft YaHei;
+        font-weight:400;
+        color:rgba(153,153,153,1);
+        margin-top: 10px;
+      }
+      .p4{
+        font-size:14px;
+        font-family:Microsoft YaHei;
+        font-weight:400;
+        color:rgba(51,51,51,1);
+      }
+    }
+    .ant-checkbox-wrapper{
+      color: red;
+      line-height: 42px;
+      font-size: 16px;
+    }
+    .ant-btn-primary{
+      float: left;
+      // margin-left: 120px;
+      width: 340px;
+      margin-top: 10px;
+      span{
+        font-size:16px;
+        font-family:Microsoft YaHei;
+        font-weight:400;
+        color:rgba(255,255,255,1);
+      }
+    }
+    .wenzishuoming{
+      float: left;
+      margin-left: 120px;
+      width: 340px;
+      font-size:14px;
+      font-family:MicrosoftYaHei;
+      font-weight:400;
+      color:#999999;
+      a{
+        color: #2E6BE6;
+        text-decoration: underline;
+        padding:0 3px ;
+      }
+  }
+}
+    .h1-title{
+      // padding-left: 20px;
+      margin-top: 32px;
+      line-height: 42px;
+      font-size:20px;
+      font-family:Microsoft YaHei;
+      font-weight:400;
+      color:rgba(0,0,0,1);
+      border-bottom: 1px solid #D1D1D1;
+    }
+}
+.apiModal{
+    top: 250px;
+    .ant-modal-content{
+      width:420px;
+      height:242px;
+      background:rgba(255,255,255,1);
+      border-radius:6px;
+              .ant-btn{
+                line-height: 42px;
+                height: 42px;
+              }
+      .ant-modal-header{
+        text-align: center;
+        border: none;
+        .ant-modal-title{
+          font-size:18px;
+          font-family:Microsoft YaHei;
+          font-weight:bold;
+          color:rgba(89,89,89,1);
+          margin-top: 10px;
+        }
+      }
+      .ant-modal-body{
+        padding: 17px 30px 20px;
+        .inp-box-p{
+          height: 42px;
+          .ant-input{
+            width: 230px;
+            float: left;
+          }
+        
+          .ant-btn-primary{
+            float: right;
+            width:120px;
+            height:42px;
+            background:rgba(46,107,230,1);
+            border-radius:4px;
+            margin: 0;
+            span{
+              font-size:16px;
+              width: auto;
+              line-height: 42px;
+              font-family:Microsoft YaHei;
+              font-weight:400;
+              color:rgba(255,255,255,1);
+            }
+          }
+        }
+        .spam{
+          padding-top: 5px;
+          padding: 2px;
+          width: 100%;
+          height: 30px;
+          font-size:14px;
+          font-family:Microsoft YaHei;
+          font-weight:400;
+          color:rgba(153,153,153,1);
+        }
+      }
+      .ant-modal-footer{
+        border: none;
+        overflow: hidden;
+        .ant-btn{
+          width: 120px;
+          float: left;
+          margin-left: 50px;
+          height: 36px;
+          background:rgba(46,107,230,1);
+          border-radius:4px;
+          border-color: rgba(46,107,230,1);
+          span{
+            display: block;
+            float: left;
+            width: 100%;
+            text-align: center;
+            line-height: 36px;
+            font-size:16px;
+            font-family:Microsoft YaHei;
+            font-weight:400;
+            color:rgba(255,255,255,1);
+          }
+        }
+        .ant-btn:nth-child(1){
+          background:#fff;
+          border-color: #BFBFBF;
+          span{
+            color:#999999;
+          }
+        }
+      }
+    }
+}
+.apiDeleteModal{
+  .ant-modal-content{
+    width:440px;
+    height:306px;
+    background:rgba(255,255,255,1);
+    border-radius:6px;
+    .h3{
+      font-size:16px;
+      font-family:Microsoft YaHei;
+      font-weight:400;
+      color:rgba(51,51,51,1);
+    }
+    .h5{
+      font-size:16px;
+      font-family:Microsoft YaHei;
+      font-weight:400;
+      color:rgba(153,153,153,1);
+      margin-bottom: 10px;
+      .h5-span-2{
+        color:#333333;
+      }
+    }
+    .h5:last-child{
+      margin-bottom: 0;
+
+    }
+  }
+}
+.ant-btn.disabled, .ant-btn[disabled]{
+  color: #999999;
+  background-color: #d9d9d9;
+  border-color: #d9d9d9;
+  text-shadow: none;
+}
+.ant-btn-primary-disabled, .ant-btn-primary.disabled, .ant-btn-primary[disabled], .ant-btn-primary-disabled:hover, .ant-btn-primary.disabled:hover, .ant-btn-primary[disabled]:hover, .ant-btn-primary-disabled:focus, .ant-btn-primary.disabled:focus, .ant-btn-primary[disabled]:focus, .ant-btn-primary-disabled:active, .ant-btn-primary.disabled:active, .ant-btn-primary[disabled]:active, .ant-btn-primary-disabled.active, .ant-btn-primary.disabled.active, .ant-btn-primary[disabled].active {
+  color: #999999;
+  background-color: #d9d9d9;
+  border-color: #d9d9d9;
+  text-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}

@@ -1,0 +1,10 @@
+@import "../../../styles/themes.scss";
+#depth_chart_container {
+    width: 100%;
+    height: 257px;
+    border: 1px solid;
+    border-radius: 4px;
+    @include themify($themes) {
+        border-color: themed('border-color-1');
+    }
+}

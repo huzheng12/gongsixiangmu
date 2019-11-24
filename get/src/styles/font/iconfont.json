@@ -1,0 +1,114 @@
+{
+  "id": "1409042",
+  "name": "gte",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "10854672",
+      "name": "top_download01",
+      "font_class": "top_download",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "10854673",
+      "name": "telegram",
+      "font_class": "telegram",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "10854674",
+      "name": "facebook",
+      "font_class": "facebook",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    },
+    {
+      "icon_id": "10854675",
+      "name": "Instagram",
+      "font_class": "Instagram",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "10854676",
+      "name": "top_tips01",
+      "font_class": "top_tips",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    },
+    {
+      "icon_id": "10854677",
+      "name": "twitter",
+      "font_class": "twitter",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    },
+    {
+      "icon_id": "10854690",
+      "name": "top_hot",
+      "font_class": "top_hot",
+      "unicode": "e609",
+      "unicode_decimal": 58889
+    },
+    {
+      "icon_id": "10879989",
+      "name": "facebook",
+      "font_class": "facebook1",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    },
+    {
+      "icon_id": "10879990",
+      "name": "twitter",
+      "font_class": "twitter1",
+      "unicode": "e60b",
+      "unicode_decimal": 58891
+    },
+    {
+      "icon_id": "10879991",
+      "name": "Instagram",
+      "font_class": "Instagram1",
+      "unicode": "e60c",
+      "unicode_decimal": 58892
+    },
+    {
+      "icon_id": "10879992",
+      "name": "telegram",
+      "font_class": "telegram1",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    },
+    {
+      "icon_id": "11187524",
+      "name": "home_market_down",
+      "font_class": "home_market_down",
+      "unicode": "e60e",
+      "unicode_decimal": 58894
+    },
+    {
+      "icon_id": "11187525",
+      "name": "treaty_down02",
+      "font_class": "treaty_down",
+      "unicode": "e60f",
+      "unicode_decimal": 58895
+    },
+    {
+      "icon_id": "11187526",
+      "name": "home_market_up",
+      "font_class": "home_market_up",
+      "unicode": "e610",
+      "unicode_decimal": 58896
+    },
+    {
+      "icon_id": "11187527",
+      "name": "treaty_up02",
+      "font_class": "treaty_up",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+@import "../../../../styles/themes.scss";
+.but118{
+
+  .ant-modal-content{
+    min-height: 242px !important;
+    width: 100%;
+  }
+  .table-data-mingxi{
+    margin: 0 auto;
+    width: 460px;
+    thead{
+      background:rgba(242,242,242,1);
+      line-height: 38px;
+    }
+    th{
+     text-align: center;
+     color:#999999;
+     font-size:14px;
+    }
+    td{
+      text-align: center;
+      font-size:14px;
+      font-family:MicrosoftYaHei;
+      font-weight:400;
+      color:#595959;
+      line-height: 14px;
+      padding-top: 8px;
+    }
+  }
+
+  
+}
+.tabe-war{
+  .ar-title{
+    h3{
+      padding-left: 10px;
+      margin-bottom: 6px;
+      font-size:18px;
+      font-family:Microsoft YaHei;
+      font-weight:bold;
+      @include themify($themes) {
+        color: themed('color-2');
+      }
+    }
+    border-bottom: 1px solid #EBEBEB;
+    @include themify($themes) {
+      border-color: themed('border-color-2');
+     }
+  }
+  .tabe-tiele-content{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    .p1{
+      margin-left: 10px;
+      float: left;
+      width: 100px;
+      height: 28px;
+      .ant-select-selection--single{
+        width: 100px;
+        height: 28px;
+
+      }
+      .ant-select-selection-selected-value{
+        line-height: 28px !important;
+      }
+    }
+  }
+}
+.ant-select-dropdown-menu-item{
+  @include themify($themes) {
+    background-color: themed('background-color-11');
+  }
+  @include themify($themes) {
+    color: themed('color-9');
+  }
+}
+.ant-select-dropdown-menu-item-selected{
+color: #2E6BE6 !important;
+}
+.ant-select-dropdown-menu-item:hover:not(.ant-select-dropdown-menu-item-disabled){
+  @include themify($themes) {
+    background-color: themed('background-color-12');
+  }
+}
+.ant-modal-close{
+  @include themify($themes) {
+    color: themed('color-14');
+  }
+}
+.ant-tabs-ink-bar{
+transition: all 0s !important;
+}
+.ant-tabs-top-content{
+  transition: all 0s !important;
+}
+.ant-select-selection{
+  @include themify($themes) {
+    background-color: themed('background-color-1');
+  }
+  @include themify($themes) {
+    border-color: themed('border-color-5');
+  }
+  @include themify($themes) {
+    color: themed('color-13');
+  }
+}
+.ant-select-arrow{
+  color: #2E6BE6;
+}
+.coloroo{
+  @include themify($themes) {
+    color: themed('color-13') !important;
+  }
+}
+.ant-select-dropdown-menu{
+  max-height: 270px;
+}

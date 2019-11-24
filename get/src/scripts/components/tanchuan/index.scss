@@ -1,0 +1,30 @@
+.Tanchuang-box{
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  .jiantou{
+    width: 15px;
+    height: 15px;
+    background-color: #001133;
+    transform:rotate(45deg);
+    position: absolute;
+    top: 0;
+    left: 20px;
+  }
+  .cantent{
+    display: inline-block;
+    padding: 10px 10px;
+    background-color: #001133;
+    min-width: 80px;
+    position: absolute;
+    left: 0;
+    top: 7px;
+    border-radius: 4px;
+    color: azure;
+    font-size:12px;
+    font-family:Microsoft YaHei;
+    font-weight:400;
+    color:rgba(255,255,255,1);
+  }
+}

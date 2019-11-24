@@ -1,0 +1,351 @@
+.fanyong-annerwarp{
+  article{
+
+    section{
+
+      width: 100%;
+      background-color: #0E1A38;
+      .imga1{
+        width: 100%;
+        height: 320px;
+      }
+      .wPHz-box{
+        position: relative;
+        width: 1200px;
+        height: 220px;
+        margin: 0 auto;
+        margin-bottom: 132px;
+        .conste-p1{
+          float: left;
+          margin-left: 29px;
+          margin-top: 40px;
+          img{
+          float: left;
+
+          }
+          .spans-cos1{
+            float: left;
+            margin-left: 20px;
+            line-height: 28px;
+            span:nth-child(1){
+              font-size:16px;
+              font-family:Microsoft YaHei;
+              font-weight:400;
+              display: block;
+              color: #FFFDFF;
+            }
+            span:nth-child(2){
+              font-size:14px;
+              font-family:Microsoft YaHei;
+              font-weight:400;
+              color: #8797C1;
+            }
+          }
+          .br-bordayangshi{
+            float: left;
+            width: 80px;
+            border-bottom: 1px solid #8797C1;
+            margin:0 20px;
+            margin-top: 36px;
+          }
+        }
+      }
+      .position-box{
+        box-shadow:0px 5px 5px 0px rgba(229,237,255,1);
+        position: absolute;
+        top: 136px;
+        left: 0;
+        width: 1200px;
+        height: 160px;
+        background-color: #fff;
+        .my-yaoqingma{
+          padding-left: 20px;
+          padding-top: 33px;
+          line-height: 42px;
+          .span-my-1{
+            width: 200px;
+            float: left;
+            font-size:20px;
+            font-family:Microsoft YaHei;
+            font-weight:400;
+            color:rgba(102,102,102,1);
+          }
+          .span-my-2{
+            float: left;
+            font-size:18px;
+            font-family:Microsoft YaHei;
+            font-weight:400;
+            color:rgba(51,51,51,1);
+          }
+          .span-my-5{
+            float: left;
+            width:480px;
+            height:42px;
+            background:rgba(255,255,255,1);
+            border:1px solid rgba(235,235,235,1);
+            border-radius:4px;
+            padding-left: 11px;
+          }
+          .span-my-6{
+            float: left;
+          }
+          .ant-btn-primary{
+            float: left;
+            margin-left: 21px;
+            font-size:16px;
+            font-family:Microsoft YaHei;
+            font-weight:400;
+            background:rgba(46,107,230,1);
+            border: rgba(46,107,230,1);
+            span{
+              width: auto;
+              line-height: 42px;
+            }
+            img{
+              display: inline-block;
+              margin-right: 5px;
+            }
+          }
+        }
+        .my-yaoqingma:nth-child(2){
+          padding-top: 20px;
+        }
+      }
+      .content-box{
+        width: 100%;
+        background-color: #fff;
+
+      .content-box-a{
+          width: 1200px;
+          margin: 0 auto;
+          .content-table{
+            margin-bottom: 40px;
+            .content-table-title{
+              line-height:42px;
+              background:rgba(242,247,255,1);
+              font-size:18px;
+            font-family:Microsoft YaHei;
+            font-weight:bold;
+            color:rgba(0,0,0,1);
+            padding-left: 20px;
+          }
+          .content-table-theerder{
+            padding: 0 50px;
+            margin-top: 20px;
+            line-height: 50px;
+            font-family:Microsoft YaHei;
+            font-weight:400;
+            color:rgba(102,102,102,1);
+            border-bottom: 1px solid #EBEBEB;
+            .tr{
+              text-align: right;
+            }
+            .tr:nth-child(1){
+              float: left;
+              text-align: left;
+              width: 100px;
+            }
+            .tr:nth-child(2){
+              float: left;
+              text-align: right;
+              width: 40%;
+            }
+            .tr:nth-child(3){
+              float:right;
+              text-align: right;
+              width: 100px;
+            }
+          }
+          .content-table-td{
+            padding: 0 50px;
+            // margin-top: 30px;
+            line-height: 50px;
+            font-family:Microsoft YaHei;
+            font-weight:400;
+            color:rgba(102,102,102,1);
+            border-bottom: 1px solid #EBEBEB;
+            .tr{
+              text-align: right;
+              height:50px;
+            }
+            .tr:nth-child(1){
+              position: relative;
+              img{
+                position: absolute;
+                top: 50%;
+                left: 0;
+                transform: translateY(-50%)
+              }
+              float: left;
+              text-align: left;
+              width: 100px;
+            }
+            .tr:nth-child(2){
+              float: left;
+              text-align: right;
+              width: 40%;
+            }
+            .tr:nth-child(3){
+              float:right;
+              text-align: right;
+              width: 100px;
+            }
+          }
+        }
+      }
+     
+      .content-box-b{
+        margin-top:0px;
+          .content-table{
+            p{
+              margin-top: 30px;
+            }
+          }
+      }
+      .tabe-box{
+        width: 1200px;
+        margin: 0 auto;
+        .content-table-title{
+          .span{
+            float:right;
+            margin-right: 20px;
+            font-family:Microsoft YaHei;
+            font-weight:400;
+            color:rgba(46,107,230,1);
+          }
+        }
+        .content-table{
+        .content-table-theerder{
+          padding: 0 20px;
+          margin-top: 20px;
+          line-height: 50px;
+          font-family:Microsoft YaHei;
+          font-weight:400;
+          color:rgba(102,102,102,1);
+          border-bottom: 1px solid #EBEBEB;
+          .tr{
+            text-align: left;
+            float:left;
+          }
+          .tr:nth-child(1){
+            width: 35%;
+            text-align: left;
+          }
+          .tr:nth-child(2){
+            text-align: left;
+            width: 25%;
+          }
+          .tr:nth-child(3){
+            float:left;
+            text-align: left;
+            width: 25%;
+          }
+          .tr:nth-child(4){
+            float:right;
+            text-align: right;
+            width: 15%;
+          }
+        }
+        .content-table-td{
+          padding: 0 20px;
+          line-height: 50px;
+          font-family:Microsoft YaHei;
+          font-weight:400;
+          color:rgba(102,102,102,1);
+          border-bottom: 1px solid #EBEBEB;
+          .tr{
+            text-align: left;
+            float:left;
+          }
+          .tr:nth-child(1){
+            width: 35%;
+            text-align: left;
+          }
+          .tr:nth-child(2){
+            text-align: left;
+            width: 25%;
+          }
+          .tr:nth-child(3){
+            float:left;
+            text-align: left;
+            width: 25%;
+          }
+          .tr:nth-child(4){
+            float:right;
+            text-align: right;
+            width: 15%;
+          }
+        }
+      }
+      .content-box-c{
+        width: 570px;
+        margin: 0;
+        float: left;
+  
+      }   
+      .content-box-d{
+        width: 570px;
+        margin: 0;
+        float: right;
+
+        .content-table{
+          .content-table-theerder{
+            .tr:nth-child(1){float: left;}
+            .tr:nth-child(2){float: right;text-align: right;}
+          }
+          .content-table-td{
+            .tr:nth-child(1){float: left;}
+            .tr:nth-child(2){float: right;text-align: right;}
+          }
+        }
+      }   
+      }
+    }
+    }
+  }
+
+}
+.pictureSharing{
+  .ant-modal-close-x {
+    display: block;
+    width: 48px;
+    height: 57px;
+    font-size: 22px;
+    font-style: normal;
+    line-height: 56px;
+    text-align: center;
+    text-transform: none;
+    text-rendering: auto;
+}
+  width: 446px !important;
+  .ant-modal-content{
+    .ant-modal-body{
+      height: 710px;
+    }
+    .ant-modal-footer{
+      height: 60px;
+      border: none;
+      >div{
+        .ant-btn:nth-child(1){
+          display: none;
+        }
+        .ant-btn:nth-child(2){
+          width:80px;
+          height:33px;
+          background:rgba(46,107,230,1);
+          border-color: rgba(46,107,230,1);
+          border-radius:6px;
+          margin: 0;
+          span{
+            width: 100%;
+            line-height: 33px;
+            font-size:12px;
+font-family:Microsoft YaHei;
+font-weight:400;
+color:rgba(255,255,255,1);
+          }
+        }
+      }
+    }
+  }
+}

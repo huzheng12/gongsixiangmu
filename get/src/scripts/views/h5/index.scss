@@ -1,0 +1,670 @@
+ #h5html #launcher{
+  display: none !important;
+
+}
+
+.iosdownload-warp{
+  font-size: 62.5%;
+  font-weight: 400;
+  font-family: MicrosoftYaHei;
+  font-size: calc(100vw/7.5);
+  font-size: -webket-calc(100vw/7.5);
+  width: 100%;
+
+  .herder {
+    background: url("./img/xiazai_bg.png") no-repeat;
+    background-size: 100% 100%;
+    height: 3.75rem;
+    width: 7.5rem;
+    position: relative;
+    overflow: hidden;
+    z-index: 99999999999;
+  }
+  
+  .logo_img {
+    width: 2.46rem;
+    height: 0.72rem;
+    margin: 0.4rem 0 0 0.4rem;
+  }
+  
+  .h1_title {
+    font-size: 0.4rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    margin-top: 0.4rem;
+  }
+  
+  .sub_h3 {
+    text-align: center;
+    font-size: 0.26rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 0.26rem;
+    letter-spacing: 0.1rem;
+  }
+  
+  footer {
+    width: 7.5rem;
+    height: 2.4rem;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 0px 0.2rem 0px rgba(209, 209, 209, 1);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+  }
+  
+  
+  .content {
+    margin-top: 0.6rem;
+    font-size: 0.28rem;
+    font-weight: 400;
+    color: rgba(51, 51, 51, 1);
+    padding-left: 1.15rem;
+    padding-bottom: 3rem;
+  }
+  
+  .list {
+    overflow: hidden;
+    padding: 0.41rem 0;
+  }
+  
+  .img_list {
+    float: left;
+  }
+  
+  .size {
+    float: left;
+    margin-left: 0.32rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+    font-weight: 400;
+    color: rgba(51, 51, 51, 1);
+  }
+  
+  .p2 {
+    font-size: 0.24rem;
+    margin-top: 0.18rem;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: rgba(102, 102, 102, 1);
+  }
+  
+  .foorter-box {
+    float: left;
+    width: 50%;
+    margin-top: 0.27rem;
+    font-size: 0.28rem;
+  }
+  
+  .img-but {
+    height: 0.8rem;
+    width: 2.8rem;
+    background: rgba(47, 111, 237, 1);
+    border-radius: 0.06rem;
+    margin: 0 auto;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: rgba(47, 111, 237, 1);
+    line-height: 0.8rem;
+  }
+  
+  .img-but img {
+    width: 2.8rem;
+    height: 0.8rem;
+  }
+  
+  .imgbg {
+    background: #fff;
+    border: 1px solid rgba(47, 111, 237, 1);
+  }
+  
+  .span-1 {
+    font-size: 0.28rem;
+    color: rgba(255, 255, 255, 1);
+    margin-left: 0.1rem;
+  }
+  
+  .span-2 {
+    font-size: 0.28rem;
+    margin-left: 0.1rem;
+  }
+  
+  .p1 {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .foot-p1 {
+    font-size: 0.24rem;
+    font-family: Microsoft YaHei;
+    font-weight: bold;
+    color: rgba(51, 51, 51, 1);
+    margin-top: 0.2rem;
+  }
+  
+  .foot-p2 {
+    font-weight: initial;
+    font-size: 0.24rem;
+    line-height: 0.5rem;
+  }
+
+}
+
+
+
+.iosdownloadto-warp{
+
+  header {
+    background: url("./img/xiazai_shuoming_bg.png") no-repeat;
+    background-size: 100% 100%;
+    height: 4.85rem;
+    width: 7.5rem;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .logo_img {
+    width: 2.46rem;
+    height: 0.72rem;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 0.6rem;
+    margin-bottom: 0.2rem;
+  }
+
+  .h1_title {
+    font-size: 0.4rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+
+  }
+
+  .sub_h3 {
+    text-align: center;
+    font-size: 0.26rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 0.26rem;
+    letter-spacing: 0.1rem;
+  }
+
+  footer {
+    width: 7.5rem;
+    height: 1.4rem;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 0px 0.2rem 0px rgba(209, 209, 209, 1);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+  }
+
+  .footer_img {
+    width: 5.4rem;
+    height: 0.8rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .content {
+    position: relative;
+    z-index: 11;
+    width: 6.6rem;
+    background: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(127, 170, 255, 1);
+    border-radius: 8px;
+    font-size: 0.28rem;
+    font-weight: 400;
+    color: rgba(51, 51, 51, 1);
+    min-height: 1rem;
+    margin: 0 auto;
+    margin-top: -1.2rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.24rem;
+
+  }
+
+  .tiele {
+    font-size: 0.32rem;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+  }
+
+  .p1 {
+    margin: 0.1rem auto;
+    color: rgba(255, 255, 255, 1);
+    line-height: 0.32rem;
+    font-size: 0.24rem;
+    width: 6.25rem;
+  }
+
+  .img-1 {
+    width: 2.84rem;
+    height: 0.57rem;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 0.5rem;
+  }
+
+  .tei {
+    margin-top: 0.52rem;
+    margin-left: 0.1rem;
+    overflow: hidden;
+  }
+
+  .tou {
+    width: 0.24rem;
+    height: 0.24rem;
+    float: left;
+  }
+
+  .title-span {
+    width: 5.68rem;
+    float: left;
+    font-size: 0.24rem;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: rgba(51, 51, 51, 1);
+    margin-left: 0.1rem;
+  }
+
+  .store-tipss {
+    position: relative;
+    left: 50%;
+    top: 0.5rem;
+    margin-bottom: 0.5rem;
+    transform: translateX(-50%);
+    width: 1rem;
+    height: 1rem;
+  }
+
+  .store-tipss780 {
+    width: 4.5rem;
+    height: 3rem;
+  }
+
+  .store-tips-1-3 {
+    width: 4.5rem;
+    height: 6.11rem;
+  }
+
+  .xianggang {
+    width: 4.66rem;
+    height: 0.48rem;
+    font-size: 0.18rem;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: rgba(102, 102, 102, 1);
+    margin-left: 0.44rem;
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+  }
+
+  .table {
+    width: 5.7rem;
+    border: 0.02rem solid rgba(127, 170, 255, 1);
+    border-radius: 8px;
+    min-height: 100px;
+    margin: 0 auto;
+  }
+
+  .tr {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .td {
+    font-size: 0.18rem;
+    width: 50%;
+    padding-left: 0.2rem;
+    line-height: 0.4rem;
+    border: 0.01rem solid #EBEBEB;
+  }
+
+  .th {
+    background: rgba(250, 250, 250, 1);
+    border-radius: 8px 8px 0 0;
+  }
+
+  .tdborder {
+    border-radius: 0 0 8px 8px;
+  }
+
+  .fangzhi {
+    width: 5.7rem;
+    margin-left: 0.44rem;
+    font-size: 0.18rem;
+    margin-top: 0.32rem;
+    margin-bottom: 0.28rem;
+  }
+
+  .tips-2-1 {
+    height: 7.28rem;
+    width: 4.5rem;
+  }
+}
+
+
+.androiddownload-warp{
+  header {
+    background: url("./img/xiazai_bg.png") no-repeat;
+    background-size: 100% 100%;
+    height: 3.75rem;
+    width: 7.5rem;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .logo_img {
+    width: 2.46rem;
+    height: 0.72rem;
+    margin: 0.4rem 0 0 0.4rem;
+  }
+
+  .h1_title {
+    font-size: 0.4rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    margin-top: 0.4rem;
+  }
+
+  .sub_h3 {
+    text-align: center;
+    font-size: 0.26rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 0.26rem;
+    letter-spacing: 0.1rem;
+  }
+
+  footer {
+    width: 7.5rem;
+    height: 1.4rem;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 0px 0.2rem 0px rgba(209, 209, 209, 1);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+  }
+
+  .footer_img {
+    width: 5.4rem;
+    height: 0.8rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .content {
+    margin-top: 0.6rem;
+    font-size: 0.28rem;
+    font-weight: 400;
+    color: rgba(51, 51, 51, 1);
+    padding-left: 1.15rem;
+    padding-bottom: 2rem;
+  }
+
+  .list {
+    overflow: hidden;
+    padding: 0.41rem 0;
+  }
+
+  .img_list {
+    float: left;
+  }
+
+  .size {
+    float: left;
+    margin-left: 0.32rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+    font-weight: 400;
+    color: rgba(51, 51, 51, 1);
+  }
+
+  .p2 {
+    font-size: 0.24rem;
+    margin-top: 0.18rem;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: rgba(102, 102, 102, 1);
+  }
+}
+
+.appregister_warp{
+  header {
+    background: url("./img/xiazai_bg.png") no-repeat;
+    background-size: 100% 100%;
+    height: 3.75rem;
+    width: 7.5rem;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .logo_img {
+    width: 2.46rem;
+    height: 0.72rem;
+    margin: 0.4rem 0 0 0.4rem;
+  }
+
+  .h1_title {
+    font-size: 0.4rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    margin-top: 0.4rem;
+  }
+
+  .sub_h3 {
+    text-align: center;
+    font-size: 0.26rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 0.26rem;
+    letter-spacing: 0.1rem;
+  }
+
+
+  main{
+    padding: 0.6rem;
+    .zhuce{
+      font-size:0.52rem;
+      font-family:SourceHanSansCN;
+      font-weight:400;
+      color:rgba(51,51,51,1);
+      margin-left: 0.07rem;
+      margin-bottom: 0.7rem;
+    }
+    .title-qiehuan{
+      font-size:0.28rem;
+      font-family:Adobe Heiti Std;
+      font-weight:normal;
+      color:rgba(102,102,102,1);
+      display: flex;
+      margin-bottom: 0.3em;
+      div{
+        margin-left: 0.07rem;
+        margin-right: 0.4rem;
+        margin-top: 0.15rem;
+
+      }
+      .action_pone{
+        color: #175CE6;
+        margin-top: 0rem;
+        font-size: 0.38rem;
+        border-bottom: 2px solid #175ce6;
+      }
+    }
+  }
+
+
+ 
+
+
+  .classsendverification {
+    justify-content: space-between;
+    line-height: 0.29rem;
+    margin-top: 0.3rem;
+  }
+
+  .shojihaoma {
+    margin-bottom: 0;
+  }
+
+
+
+  .multiple-selection {
+    width: 100%;
+    height: 0.1rem;
+    font-size: 0.24rem;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: rgba(153, 153, 153, 1);
+    line-height: 0.26rem;
+  }
+
+  .imgcheckbox {
+    width: 0.22rem;
+    height: 0.22rem;
+
+  }
+
+  .spanxieyi {
+    color: #2F6EEC;
+  }
+
+  .imgbg {
+    width: 100%;
+    height: 0.9rem;
+    background: url('./img/yaoqing_zhuce_bg02.png') no-repeat;
+    background-size: contain;
+  }
+
+  .imgbgsizi {
+    margin-top: -0.1rem;
+    background-color: #053495;
+    width: 100%;
+    /* height: 500px; */
+    color: #fff;
+    font-size: 0.26rem;
+    text-align: center;
+    overflow: hidden;
+
+  }
+
+  .xobox {
+    width: 5.65rem;
+    margin: 0 auto;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .title {
+    font-size: 0.4rem;
+    margin-top: 0.45rem;
+  }
+
+  .anquankeyxing {
+    width: 2rem;
+    height: 2rem;
+    position: relative;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+  }
+
+  .title-32x {
+    font-size: 0.32rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.32rem;
+  }
+.ant-select-selection--single{
+  height: 0.50rem;
+  font-size:0.28rem;
+font-family:Arial;
+  width: 1rem;
+  border: none;
+}
+.ant-select-focused .ant-select-selection, .ant-select-selection:focus, .ant-select-selection:active{
+  box-shadow:none;
+}
+.ant-select-selection__rendered{
+  margin-left: 0;
+}
+.ant-select-selection--single .ant-select-selection__rendered{
+  margin-right: 0;
+}
+.ant-select-arrow{
+  margin-top: 4px;
+}
+.ant-select-arrow{
+  right: 0;
+}
+.ant-select-arrow{
+  color: #000;
+}
+.ant-select-dropdown{
+  box-shadow:none;
+  border: none;
+  ul{
+    box-shadow:none !important;
+    border: none !important;
+  }
+}
+.p_input_form{
+  border-bottom: 1px solid #D1D1D1;
+  margin-bottom: 0.45rem;
+  height: 0.7rem;
+  overflow: hidden;
+  .spana_fasong{
+    float: right;
+    margin-right: 0.1rem;
+
+    color:rgba(46,107,230,1);
+    font-size: 0.3rem;
+  }
+}
+
+.ant-input{
+  border: none;
+}
+.ant-input[disabled]{
+  background-color: #fff;
+  color:#333333 ;
+}
+ .ant-btn-primary{
+  width: 100%;
+  margin-top: 0.8rem;
+  div{
+    font-size:0.34rem;
+font-family:Microsoft YaHei;
+font-weight:400;
+color:rgba(255,255,255,1);
+
+  }
+}
+}
+
+#h5html{
+  .ant-select-dropdown-menu-item{
+    padding: 5px 3px;
+  }
+  .ant-select-dropdown-menu{
+    max-height: 120px;
+
+  }
+}

@@ -1,0 +1,34 @@
+
+.hezi-box{
+  width:420px;
+height:280px;
+background:rgba(255,255,255,1);
+box-shadow:0px 0px 10px 0px rgba(47, 110, 236, 0.35);
+border-radius:4px;
+margin: 40px auto;
+overflow: hidden;
+.img{
+  text-align: center;
+  line-height: 50px;
+  font-size: 26px;
+  width: 50px;
+  height: 50px;
+  margin: 55px auto 35px;
+  border-radius: 50%;
+}
+.span{
+  font-size:24px;
+  font-family:SimHei;
+  font-weight:400;
+  color:rgba(51,51,51,1);
+  text-align: center;
+}
+.spans{
+  margin-top: 20px;
+  font-size:16px;
+  font-family:SimHei;
+  font-weight:400;
+  color:rgba(102,102,102,1);
+  text-align: center;
+}
+}

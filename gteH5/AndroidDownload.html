@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script type="text/javascript" src="./js/jquery.min.js"></script>
+  <script type="text/javascript" src="./js/echarts.min.js"></script>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      font-size: 62.5%;
+      font-weight: 400;
+      font-family: MicrosoftYaHei;
+      font-size: calc(100vw/7.5);
+      font-size: -webket-calc(100vw/7.5);
+    }
+
+    html,
+    body {
+      width: 100%;
+      font-family: Microsoft YaHei;
+    }
+
+    header {
+      background: url("./img/xiazai_bg.png") no-repeat;
+      background-size: 100% 100%;
+      height: 3.75rem;
+      width: 7.5rem;
+      position: relative;
+    }
+
+    .logo_img {
+      width: 2.46rem;
+      height: 0.72rem;
+      margin: 0.4rem 0 0 0.4rem;
+    }
+
+    .h1_title {
+      font-size: 0.4rem;
+      font-weight: 400;
+      color: rgba(255, 255, 255, 1);
+      text-align: center;
+      margin-top: 0.4rem;
+    }
+
+    .sub_h3 {
+      text-align: center;
+      font-size: 0.26rem;
+      font-weight: 400;
+      color: rgba(255, 255, 255, 1);
+      margin-top: 0.26rem;
+      letter-spacing: 0.1rem;
+    }
+
+    footer {
+      width: 7.5rem;
+      height: 1.4rem;
+      background: rgba(255, 255, 255, 1);
+      box-shadow: 0px 0px 0.2rem 0px rgba(209, 209, 209, 1);
+      position: fixed;
+      bottom: 0;
+      left: 0;
+    }
+
+    .footer_img {
+      width: 5.4rem;
+      height: 0.8rem;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .content {
+      margin-top: 0.6rem;
+      font-size: 0.28rem;
+      font-weight: 400;
+      color: rgba(51, 51, 51, 1);
+      padding-left: 1.15rem;
+    }
+
+    .list {
+      overflow: hidden;
+      padding: 0.41rem 0;
+    }
+
+    .img_list {
+      float: left;
+    }
+
+    .size {
+      float: left;
+      margin-left: 0.32rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      height: 100%;
+      font-weight: 400;
+      color: rgba(51, 51, 51, 1);
+    }
+
+    .p2 {
+      font-size: 0.24rem;
+      margin-top: 0.18rem;
+      font-family: Microsoft YaHei;
+      font-weight: 400;
+      color: rgba(102, 102, 102, 1);
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <img class="logo_img" src="./img/xiazai_logo.png" alt="">
+    <div class="h1_title">
+      全球领先的数字合约交易平台
+    </div>
+    <div class="sub_h3">
+      安全 · 稳定 · 可信
+    </div>
+  </header>
+
+  <section class="content">
+    <div class="list">
+      <img src="./img/xiazai_img01.png" alt="" class="img_list">
+      <div class="size">
+        <p>更安全</p>
+        <p class="p2">老牌交易所</p>
+      </div>
+    </div>
+    <div class="list">
+      <img src="./img/xiazai_img02.png" alt="" class="img_list">
+      <div class="size">
+        <p>更多糖果</p>
+        <p class="p2">多元化奖励机制</p>
+      </div>
+    </div>
+    <div class="list">
+      <img src="./img/xiazai_img03.png" alt="" class="img_list">
+      <div class="size">
+        <p>更多样</p>
+        <p class="p2">支持合约等多种交易类型</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <img src="./img/but_android.png" alt="" class="footer_img">
+  </footer>
+</body>
+
+</html>

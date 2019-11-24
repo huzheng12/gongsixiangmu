@@ -1,0 +1,210 @@
+@import "../../../styles/themes.scss";
+.zback-header-inp{
+  width:200px;
+  height:40px;
+  background:rgba(235,240,255,1);
+  border: 0;
+}
+.zback-content-p{
+  line-height: 33px;
+  padding-left: 10px;
+  padding-right: 8px;
+  span{
+    font-size:12px;
+    font-family:MicrosoftYaHei;
+    font-weight:400;
+    @include themify($themes) {
+      color: themed('color-3');
+    }
+
+  }
+  .span1{
+    float: left;
+  }
+  .span2{
+    float: right;
+  }
+}
+.zback-content-li{
+  border-left: 4px solid transparent;
+
+  width: 100%;
+  height: 30px;
+  box-sizing: border-box;
+  padding-left: 14px;
+  line-height: 30px;
+  color:#666666 ;
+  font-size: 14px;
+  margin-bottom: 5px;
+  .span1{
+    float: left;
+    margin-left: 10px;
+    font-size:14px;
+    font-family:MicrosoftYaHei;
+    font-weight:400;
+    color:rgba(48,117,238,1);
+    // line-height:66px;
+  }
+  .span2{
+    float: right;
+    margin-right: 10px;
+    font-size:14px;
+    font-family:MicrosoftYaHei;
+    font-weight:400;
+    color:rgba(230,63,57,1);
+    // line-height:66px;
+
+  }
+  
+}
+.zuoyi{
+  .navlinkuo{
+    display: block;
+    border-left: 4px solid transparent;
+    width: 100%;
+    height: 30px;
+    box-sizing: border-box;
+    padding-left: 25px;
+    line-height: 30px;
+    @include themify($themes) {
+      color: themed('color-1');
+    }
+    font-size: 14px;
+    margin-bottom: 0px;
+  }
+  .navlinkuo:hover{
+    color:#3377FF;
+  }
+  .navlinkuo:active{
+    color:#295FCC;
+  }
+  .selected{
+    border-left: 4px solid rgba(46,107,230,1);
+    color:#3075EE ;
+    width: 100%;
+    height: 30px;
+    box-sizing: border-box;
+    padding-left: 25px;
+    line-height: 30px;
+    font-size: 14px;
+    margin-bottom: 0px;
+  }
+}
+.bclick{
+  border-left: 4px solid rgba(46,107,230,1);
+  color:#3075EE ;
+  width: 100%;
+  height: 30px;
+  box-sizing: border-box;
+  padding-left: 14px;
+  line-height: 30px;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+.content-tow{
+  border-radius: 4px;
+  padding-bottom: 3px;
+  overflow: hidden;
+  margin-bottom: 10px;
+  border:1px solid #D1D1D1;
+  @include themify($themes) {
+    border-color: themed('border-color-1');
+  }
+  width: 100%;
+  img{
+    display: inline-block;
+    margin-right: 5px;
+    margin-top: -4px;
+  }
+  >p{
+    font-size: 12px;
+    @include themify($themes) {
+      color: themed('color-0');
+    }
+    margin-top: 12px;
+    background-position: 8px 3px !important;
+    padding-left: 8px !important;
+    margin-bottom: 10px;
+  }
+  >div{
+    line-height: 30px;
+    padding-left: 30px;
+    font-size:14px;
+    font-family:MicrosoftYaHei;
+    font-weight:400;
+    @include themify($themes) {
+      color: themed('color-1');
+    }
+  }
+  .ant-spin-spinning{
+    width: 100%;
+    padding: 0;
+  }
+  .waijiew{
+    cursor:pointer;
+  }
+  .waijiew:hover {
+    color:#3377FF;
+  }
+  .waijiew:active {
+    color:#295FCC;
+  }
+  .waijiew {
+    a{
+      @include themify($themes) {
+        color: themed('color-1');
+      }
+      cursor:pointer;
+    }
+  }
+  .waijiew:hover a{
+    color:#3377FF;
+  }
+  .waijiew:active a{
+    color:#295FCC;
+  }
+}
+.inputaaa{
+  .ant-input-affix-wrapper:hover .ant-input:not(.ant-input-disabled){
+    border: none;
+    border-bottom: 1px solid #efefef;
+    @include themify($themes) {
+      border-color: themed('border-color-1');
+    }
+  }
+  .ant-input{
+    border-color: transparent;
+    border-radius: 0;
+    border: none;
+    border-bottom: 1px solid #efefef;
+    @include themify($themes) {
+      background-color: themed('background-color-4');
+    }
+    @include themify($themes) {
+      border-color: themed('border-color-1');
+    }
+    @include themify($themes) {
+      color: themed('color-1');
+    }
+
+  }
+  
+  .zback-content-li{
+  height: 30px;
+  line-height: 30px;
+ 
+    .span33{
+      float: left;
+      @include themify($themes) {
+        color: themed('color-1');
+      }
+    }
+  }
+  .zback-content-li:hover .span33{
+    color:#3377FF;
+  }
+  .zback-content-li:active .span33{
+    color:#295FCC;
+  }
+
+}

@@ -1,0 +1,53 @@
+.login-warp-email{
+  margin: 0 auto;
+  .select-box{
+    float: left;
+    margin-right: 10px;
+    height: 42px;
+  }
+  .input-box{
+    float: left;
+     .ant-input{
+      width: 220px;
+      height: 42px;
+      min-height: 42px !important;
+    }
+  }
+  .input-box1{
+    float: left;
+    width: 220px;
+    .ant-input{
+     width: 220px;
+     height: 42px;
+   }
+  }
+  .ant-select-selection{
+    box-shadow: none;
+  }
+  .tishicuowu{
+    float: left;
+    width: 200px;
+    height: 20px;
+    font-size:12px;
+    font-family:Microsoft YaHei;
+    font-weight:400;
+    color:#E53F39;
+  }
+  .input-boxs{
+    .ant-input{
+      width: 100%;
+      height: 42px;
+    }
+  }
+  .but-box{
+    .ant-btn-primary{
+      margin: 0 0 0 10px;
+    }
+    span{
+      width: 100%;
+      color: #F2EBE6;
+      font-size:14px;
+      font-family:Microsoft YaHei;
+    }
+  }
+}

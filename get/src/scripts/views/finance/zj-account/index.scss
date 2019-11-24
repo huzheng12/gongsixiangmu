@@ -1,0 +1,45 @@
+.account-warp{
+  width: 100%;
+  .asset-title>h1{
+    width: 100%;
+    font-size:20px;
+    font-family:MicrosoftYaHei-Bold;
+    font-weight:900;
+    color:rgba(0,0,0,1);
+    border-bottom: 1px solid #D1D1D1;
+    padding-bottom: 10px;
+    padding-left: 8px;
+  }
+  .account-current{
+    img{
+      position: absolute;
+      top: 11px;
+      left: 13px;
+
+    }
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-right: 11px;
+    position: relative;
+    width: 100%;
+    background:rgba(255,249,235,1);  
+    border-radius:4px;
+    color:rgba(234,165,18,1);
+    line-height:18px;
+    margin-top: 10px;
+    padding-left: 33px;
+  }
+  .content{
+    .zhehe{
+      margin-top: 30px;
+      margin-bottom: 40px;
+    }
+  }
+  .linkstyle{
+
+    font-size:15px;
+font-family:MicrosoftYaHei;
+font-weight:400;
+color:rgba(47,110,236,1);
+  }
+}
